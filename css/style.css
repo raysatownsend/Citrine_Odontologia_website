@@ -531,10 +531,18 @@ form button {
         overflow-x: hidden !important;
     }
 
+    .container {
+        max-width: 99vw !important;
+    }
+    
+    .row {
+        max-width: 99vw !important;
+    }
+
     header .logo img {
         display: flex;
         height: auto;
-        max-width: 60% !important;
+        max-width: 75% !important;
         position: relative;
         top: -15px !important;
     }
@@ -637,7 +645,7 @@ form button {
         width: 150%;
         column-gap: 1rem;
         top: 0rem;
-        left: 1.5rem;
+        left: 2.5rem;
     }
 
     #Descricao_Sobre {
@@ -650,25 +658,25 @@ form button {
     #Descricao_Sobre img {
         position: relative;
         padding-bottom: 4.5px;
-        top: 1.90rem !important;
-        left: 0rem;
+        top: 3rem !important;
+        left: 0.4rem;
     }
 
     #Descricao_Sobre h1 {
         font-size: 20px;
-        left: 0rem;
+        left: 0.4rem;
         position: relative;
-        top: 20.5px;
+        top: 29px;
 
     }
 
     #Descricao_Sobre p {
         width: 100%;
-        font-size: 13px;
-        left: -0rem;
+        font-size: 18px;
+        left: 0.4rem;
         line-height: 20px;
-        top: -1rem;
-        width: 300px;
+        top: -0.8rem;
+        width: 290px;
     }
 
     #Servicos {
@@ -703,10 +711,8 @@ form button {
     .owl-carousel img {
         border-radius: 50%;
         border: solid 1px #fcfbfb;
-        padding: 2rem !important;
         height: 140px !important;
         left: 7rem !important;
-        margin-bottom: 0.5rem !important;
         overflow: visible;
         position: relative;
         text-align: center;
@@ -715,8 +721,8 @@ form button {
 
     .owl-carousel img:hover {
         border: solid 1px #0c0c0c;
-        height: 150px !important;
-        width: 150px !important;
+        height: 140px !important;
+        width: 140px !important;
     }
 
     .owl-carousel h3 {
@@ -749,12 +755,12 @@ form button {
     }
 
     #services_button {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         height: 60px;
         left: 0rem;
         top: -6.5rem;
-        width: 295px;
+        width: 350px;
     }
 
     #Locacoes {
@@ -772,7 +778,7 @@ form button {
         border-radius: 25px;
         object-fit: cover;
         object-position: 100% 50%;
-        margin-bottom: 1.8rem;
+        margin-bottom: 1rem !important;
         width: 90vw !important;
     }
 
@@ -785,9 +791,9 @@ form button {
     }
 
     #descricao_locacao p {
-        font-size: 14px;
+        font-size: 18px;
         left: 1rem;
-        line-height: 15px;
+        line-height: 18px;
         max-width: 93vw !important;
         position: relative;
         text-align: left;
@@ -798,13 +804,13 @@ form button {
         height: 55px;
         left: 0rem;
         padding-top: 1rem !important;
-        top: -1.5rem;
+        top: 1rem;
         width: 295px;
     }
 
     #QuemSomos {
-        top: 16rem !important;
-        height: 450px !important;
+        top: 18rem !important;
+        height: 550px !important;
     }
 
     #QuemSomos h2 {
@@ -819,30 +825,35 @@ form button {
     }
 
     #carouselQuemSomos .carousel-item {
-        height: 450px;
+        height: 550px;
         max-width: 98vw;
         overflow: hidden;
-        left: 0.5rem;
+        left: 0rem;
     }
 
     #carouselQuemSomos h3 {
         color: #F4D34A;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 200;
         letter-spacing: 1px;
+        left: 2rem;
         max-width: 180px !important;
-        padding-bottom: 0.5rem !important;
+        padding-bottom: 0rem !important;
+        position: relative;
+        top: 3rem !important;
     }
 
     #carouselQuemSomos p {
         color: #0c0c0c;
         font-family: 'Cambay Devanagari', sans-serif;
-        font-size: 11px;
+        font-size: 14px;
         height: auto;
+        left:-7rem;
         line-height: 1.1rem;
         position: relative;
-        width: 193px;
+        width: 295px;
+        top:6rem;
         word-break: break-all;
     }
 
@@ -851,7 +862,7 @@ form button {
         height: 125px;
         border: solid 0.85rem #F4D34A;
         border-radius: 50%;
-        left: 0px;
+        left: 2rem;
         object-fit: cover;
         object-position: 50% 50%;
         width: 125px !important;
@@ -861,10 +872,11 @@ form button {
         border: solid 0.85rem #F4D34A;
         border-radius: 50%;
         height: 125px;
-        left: -1.5rem;
+        left: 1.5rem;
         position: relative;
         object-position: 100% 18%;
         object-fit: cover;
+        top:5.5rem;
         width: 125px !important;
     }
 
@@ -876,26 +888,29 @@ form button {
     }
 
     #luiza {
+        display: flex;
+        flex-direction: column;
+        position: relative;
         height: fit-content !important;
     }
 
     #alessandra {
         height: 305px;
-        left: 1.5rem;
+        left: 0.5rem;
         position: relative;
         top: -5rem;
     }
 
     #QuemSomos .description_quem_somos_alessandra {
-        left: 7rem;
+        left: 8rem;
         position: relative;
-        top: -7.8rem;
+        top: -3.5rem;
         max-width: 200px !important
     }
 
     #depoimentos {
         position: relative;
-        top: 12rem !important;
+        top: 22rem !important;
     }
 
     #depoimentos h2 {
@@ -908,7 +923,7 @@ form button {
 
     #Contato {
         height: 500px;
-        top: 12rem;
+        top: 26rem;
     }
 
     #Contato h2 {
@@ -1024,7 +1039,7 @@ form button {
     header .logo img {
         display: flex;
         height: auto;
-        max-width: 60% !important;
+        max-width: 75% !important;
         position: relative;
         top: -15px !important;
     }
@@ -1127,12 +1142,12 @@ form button {
         width: 150%;
         column-gap: 1rem;
         top: 0rem;
-        left: 1.5rem;
+        left: 2.8rem;
     }
 
     #Descricao_Sobre {
         text-align: left;
-        left: -10rem;
+        left: -9.8rem;
         position: relative;
         top: 17rem !important;
     }
@@ -1141,7 +1156,7 @@ form button {
         position: relative;
         padding-bottom: 4.5px;
         top: 1.90rem !important;
-        left: 0rem;
+        left: 0.2rem;
     }
 
     #Descricao_Sobre h1 {
@@ -1154,7 +1169,7 @@ form button {
 
     #Descricao_Sobre p {
         width: 100%;
-        font-size: 13px;
+        font-size: 18px;
         left: -0rem;
         line-height: 20px;
         top: -1rem;
@@ -1193,10 +1208,8 @@ form button {
     .owl-carousel img {
         border-radius: 50%;
         border: solid 1px #fcfbfb;
-        padding: 2rem !important;
         height: 140px !important;
         left: 8rem !important;
-        margin-bottom: 0.5rem !important;
         overflow: visible;
         position: relative;
         text-align: center;
@@ -1222,7 +1235,7 @@ form button {
     }
 
     .owl-carousel .owl-nav button.owl-prev {
-        left: -8rem !important;
+        left: -6.5rem !important;
         position: relative;
         top: -1.2rem;
         width: auto;
@@ -1275,9 +1288,9 @@ form button {
     }
 
     #descricao_locacao p {
-        font-size: 14px;
+        font-size: 18px;
         left: 1rem;
-        line-height: 15px;
+        line-height: 18px;
         max-width: 93vw !important;
         position: relative;
         text-align: left;
@@ -1288,104 +1301,115 @@ form button {
         height: 55px;
         left: 0rem;
         padding-top: 1rem !important;
-        top: -1.5rem;
+        top: 1.5rem;
         width: 295px;
     }
 
-    #QuemSomos {
-        top: 18rem !important;
-        height: 450px !important;
-    }
+    
+#QuemSomos {
+    top: 21rem !important;
+    height: 550px !important;
+}
 
-    #QuemSomos h2 {
-        font-size: 20px;
-        padding-bottom: 1.5rem !important;
-        top: 0rem;
-    }
+#QuemSomos h2 {
+    font-size: 20px;
+    padding-bottom: 1.5rem !important;
+    top: 0rem;
+}
 
-    #carouselQuemSomos {
-        flex-direction: column;
-        overflow: hidden !important;
-    }
+#carouselQuemSomos {
+    flex-direction: column;
+    overflow: hidden !important;
+}
 
-    #carouselQuemSomos .carousel-item {
-        height: 450px;
-        max-width: 98vw;
-        overflow: hidden;
-        left: 0.5rem;
-    }
+#carouselQuemSomos .carousel-item {
+    height: 550px;
+    max-width: 98vw;
+    overflow: hidden;
+    left: 0rem;
+}
 
-    #carouselQuemSomos h3 {
-        color: #F4D34A;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        font-weight: 200;
-        letter-spacing: 1px;
-        max-width: 180px !important;
-        padding-bottom: 0.5rem !important;
-    }
+#carouselQuemSomos h3 {
+    color: #F4D34A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    left: 2rem;
+    max-width: 180px !important;
+    padding-bottom: 0rem !important;
+    position: relative;
+    top: 3rem !important;
+}
 
-    #carouselQuemSomos p {
-        color: #0c0c0c;
-        font-family: 'Cambay Devanagari', sans-serif;
-        font-size: 11px;
-        height: auto;
-        line-height: 1.1rem;
-        position: relative;
-        width: 221px;
-        word-break: break-all;
-    }
+#carouselQuemSomos p {
+    color: #0c0c0c;
+    font-family: 'Cambay Devanagari', sans-serif;
+    font-size: 14px;
+    height: auto;
+    left:-7rem;
+    line-height: 1.1rem;
+    position: relative;
+    width: 295px;
+    top:6rem;
+    word-break: break-all;
+}
 
-    #QuemSomos #luiza img {
-        position: relative;
-        height: 125px;
-        border: solid 0.85rem #F4D34A;
-        border-radius: 50%;
-        left: 0px;
-        object-fit: cover;
-        object-position: 50% 50%;
-        width: 125px !important;
-    }
+#QuemSomos #luiza img {
+    position: relative;
+    height: 125px;
+    border: solid 0.85rem #F4D34A;
+    border-radius: 50%;
+    left: 2rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 125px !important;
+}
 
-    #QuemSomos #alessandra img {
-        border: solid 0.85rem #F4D34A;
-        border-radius: 50%;
-        height: 125px;
-        left: -1.5rem;
-        position: relative;
-        object-position: 100% 18%;
-        object-fit: cover;
-        width: 125px !important;
-    }
+#QuemSomos #alessandra img {
+    border: solid 0.85rem #F4D34A;
+    border-radius: 50%;
+    height: 125px;
+    left: 1.5rem;
+    position: relative;
+    object-position: 100% 18%;
+    object-fit: cover;
+    top:5.5rem;
+    width: 125px !important;
+}
 
-    #QuemSomos .description_quem_somos_luiza {
-        left: 9rem;
-        position: relative;
-        top: -7.8rem;
-        max-width: 199px !important;
-    }
+#QuemSomos .description_quem_somos_luiza {
+    left: 8.5rem;
+    position: relative;
+    top: -7.8rem;
+    max-width: 199px !important;
+}
 
-    #luiza {
-        height: fit-content !important;
-    }
+#luiza {
+    display: flex;
+    flex-direction: column;
+    left: 1.5rem;
+    position: relative;
+    height: fit-content !important;
+}
 
-    #alessandra {
-        height: 305px;
-        left: -11.2rem;
-        position: relative;
-        top: 11rem;
-    }
+#alessandra {
+    height: 305px;
+    left: -10.5rem;
+    position: relative;
+    top: 12rem;
+}
 
-    #QuemSomos .description_quem_somos_alessandra {
-        left: 7.5rem;
-        position: relative;
-        top: -7.8rem;
-        max-width: 200px !important
-    }
+#QuemSomos .description_quem_somos_alessandra {
+    left: 8rem;
+    position: relative;
+    top: -3.5rem;
+    max-width: 200px !important
+}
 
     #depoimentos {
         position: relative;
-        top: 14rem !important;
+        top: 23rem !important;
     }
 
     #depoimentos h2 {
@@ -1398,7 +1422,7 @@ form button {
 
     #Contato {
         height: 500px;
-        top: 15rem;
+        top: 24rem;
     }
 
     #Contato h2 {
@@ -1506,14 +1530,14 @@ form button {
 
 @media (min-width: 500px) and (max-width: 912px) {
 
-    body {
+    html {
         overflow-x: hidden !important;
     }
 
     header .logo img {
         display: flex;
         height: auto;
-        max-width: 60% !important;
+        max-width: 99vw !important;
         position: relative;
         top: -15px !important;
     }
@@ -1630,7 +1654,7 @@ form button {
     #Descricao_Sobre img {
         position: relative;
         padding-bottom: 4.5px;
-        top: 1.90rem !important;
+        top: 0rem !important;
         left: -10rem;
     }
 
@@ -1638,26 +1662,26 @@ form button {
         font-size: 20px;
         left: -10rem;
         position: relative;
-        top: 20.5px;
+        top: -1rem;
 
     }
 
     #Descricao_Sobre p {
         width: 100%;
-        font-size: 14px;
+        font-size: 18px;
         left: -10rem;
         line-height: 20px;
-        top: -1rem;
+        top: -4rem;
         width: 320px;
     }
 
     #Servicos {
         height: 380px;
-        top: 0.5rem;
+        top: -3.5rem;
     }
 
     #Servicos h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .owl-carousel {
@@ -1686,7 +1710,6 @@ form button {
         padding: 2rem !important;
         height: 140px !important;
         left: 7rem !important;
-        margin-bottom: 0.5rem !important;
         overflow: visible;
         position: relative;
         text-align: center;
@@ -1740,11 +1763,11 @@ form button {
     #Locacoes {
         max-width: 96vw;
         text-align: center;
-        top: 5rem;
+        top: 0rem;
     }
 
     #Locacoes h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #Locacoes img {
@@ -1765,9 +1788,9 @@ form button {
     }
 
     #descricao_locacao p {
-        font-size: 15px;
+        font-size: 18px;
         left: 2.5rem;
-        line-height: 15px;
+        line-height: 18px;
         max-width: 88vw !important;
         position: relative;
         text-align: left;
@@ -1788,14 +1811,15 @@ form button {
     }
 
     #QuemSomos h2 {
-        font-size: 20px;
+        font-size: 25px;
         padding-bottom: 1.5rem !important;
-        top: 0rem;
+        top: -6rem;
     }
 
     #carouselQuemSomos {
         flex-direction: column;
         overflow: hidden !important;
+        top:-4rem;
     }
 
     #carouselQuemSomos .carousel-item {
@@ -1876,7 +1900,7 @@ form button {
 
     #depoimentos {
         position: relative;
-        top: 0rem !important;
+        top: -3rem !important;
     }
 
     #depoimentos h2 {
@@ -1889,7 +1913,7 @@ form button {
 
     #Contato {
         height: 550px;
-        top: 10rem;
+        top: 0rem;
     }
 
     #Contato h2 {
@@ -2017,7 +2041,7 @@ form button {
         align-items: center;
         display: flex;
         flex-direction: column !important;
-        max-width: 98vw !important;
+        max-width: 99vw !important;
         top: -4rem !important;
     }
 
@@ -2077,7 +2101,6 @@ form button {
         border: solid 1px #fcfbfb;
         padding: 2rem !important;
         height: 140px !important;
-        margin-bottom: 0.5rem !important;
         overflow: visible;
         text-align: center;
         width: 140px !important;
@@ -2218,6 +2241,7 @@ form button {
         font-family: 'Cambay Devanagari', sans-serif;
         font-size: 19.5px;
         height: auto;
+        left: -1rem;
         line-height: 1.5rem;
         width: 259px;
     }
